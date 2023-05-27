@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+}
+.h2tutorial{
+    color: blueviolet;
+    background-color: yellow;
+}
+
+.main_container{
+    text-align: left;
+}
