@@ -1,0 +1,58 @@
+
+body 
+{
+background-color: lightgray;
+
+}
+
+/* define the rings basic css style */
+
+.ring {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+    border-width: 10px; 
+    align-items: center;
+    justify-content:center; 
+}
+
+/* define the blue ring css style */
+
+.blue {
+    border-color: #0180C3; yellow1 
+        /* above the blue ring */
+        z-index: 10;
+        /* clip circle */
+        clip-path: polygon(0 0, 100% 100%, 0 100%); 
+}
+
+.yellow {
+    border-color: #FEB131;
+    left: 70px;
+    top: 60px;
+    z-index: 20;
+    
+}
+
+.black {
+    border-color: black;
+    left: 140px;
+    top: 0px;
+    z-index: 21;
+}
+
+.green {
+    border-color: #059341;
+    left: 210px;
+    top: 60px;
+    z-index: 20;
+}
+
+.red {
+    border-color: #FF0000;
+    left: 280px;
+    top: 0px;
+    z-index: 10;
+}

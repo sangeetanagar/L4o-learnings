@@ -1,0 +1,28 @@
+.circle
+{
+width: 200px;
+height:200px;
+border-radius:50% ;
+
+}
+.green{
+    border-color: green;
+    position: relative;
+   left: 400px;
+    
+}
+.yellow { 
+    border-radius: 10px;
+border-color: yellow;
+position: relative;
+bottom: 200px;
+
+
+
+}
+.red {
+border-color: red;
+bottom: 200px;
+position: relative;
+
+}

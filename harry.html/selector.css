@@ -1,0 +1,50 @@
+/* img
+{
+width: 200px;
+height: 200px;
+
+} */
+.Amir-1 
+{
+    width: 500; 
+    height: 400; border-radius: 10%;
+}
+.Amir-2
+{
+width: 500;
+height: 400; border-radius: 30%;
+}
+
+
+.Amir-3
+{
+    width: 200;
+    height: 200;
+     border-radius:50%;
+}
+.Amir-4
+{
+    width: 200;
+    height: 200;
+     border-radius:50%;
+}
+    h1{
+        color:blue;
+    }
+    h2{
+        color:#008b8b;
+    }
+    .text-color-green {
+     color: green;   
+
+    }
+    /* img {
+        border-radius: 50%;
+      } */
+       
+
+    /* #favorite-movies{
+        color: green; font-size: 100px;
+    }  */
+
+    

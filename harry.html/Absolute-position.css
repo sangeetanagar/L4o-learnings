@@ -1,0 +1,45 @@
+.circle
+{
+width: 200px;
+height:200px;
+border-radius:50% ;
+
+}
+div.green1 {
+background-color: green;
+position: absolute;
+top: 0;
+
+}
+div.red1 {
+background-color: red;
+position: absolute;
+top: 200px;
+left: 200px;
+}
+div.yellow1{
+background-color: yellow;
+position: absolute; 
+top: 400px;
+left: 400px;
+} 
+div.green2 {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 600px;
+    
+    }
+    div.red2 {
+    background-color: red;
+    position: absolute;
+    right: 780px;
+    bottom: 550px;
+
+    }
+    div.yellow2{
+    background-color: yellow;
+    position: fixed; 
+    right: 970px;
+    bottom: 350px;
+    } 

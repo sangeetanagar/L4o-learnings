@@ -1,0 +1,19 @@
+/* div {
+background-color: darkcyan;
+color:yellow;
+padding: 20px;
+display: inline;
+border: 100px solid red; 
+red
+margin:50px;
+padding: 50px;
+} */
+div {
+    background-color: lightgrey;
+    width: 500px;
+    border: 10px solid green;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }

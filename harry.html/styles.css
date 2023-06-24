@@ -1,0 +1,25 @@
+body
+{
+    background-color: beige;
+}
+ hr
+ {
+ 
+ border-top: 8px dotted yellow;
+   border-style: none
+   
+   border-radius:10px;
+   width:30%  
+ }
+
+ h1 {
+color: #000080;
+ } 
+
+ h2 {
+color: #000080;
+ }
+ 
+img {
+ border-radius: 50%;
+}

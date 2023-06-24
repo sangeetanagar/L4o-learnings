@@ -1,0 +1,117 @@
+body
+{
+margin: 0;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.menuContainer
+{
+position: fixed;
+background-color:red; 
+padding: 10px;
+/* box-shadow: 0px 2px 5px 0 rgb(0, 0, 0/16%),0px 2px 10px 0 rgb(0, 0, 0/12%) !important; */
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);}
+
+
+.menuContainer a:link {
+text-decoration: none;
+
+}
+.menuContainer a {
+color: #fff; 
+padding: 12px 24px;
+font-size: 18px;
+}
+
+.menuContainer a:hover {
+background-color: #fff;
+color: black;
+}
+.haedcontainer {
+background-color: red;
+text-align: center ;
+
+padding: 128px 16px;
+
+}
+.haedcontainer h1 {
+font-size: 60px;
+text-transform: capitalize;
+}
+
+.haedcontainer h3{
+font-size: 30px;
+}
+.haedcontainer button {
+background-color: black;
+padding: 12px 24px;
+font-size: 18px;
+border: none;
+margin-top: 16px;
+
+}
+.haedcontainer h1,h3,button{
+    color:#fff;
+}
+.haedcontainer button:hover{
+background-color: lightgrey;
+color: black;
+}
+
+.anchor-section-container {
+padding: 16px 8px;
+background-color: #fff; 
+max-width: 700px; 
+margin: 0 auto;
+}
+.anchor-text-section{
+    display: inline-block;
+    width: 66.66%;
+}
+.anchor-text-section h1{
+    font-size: 36px;
+}
+.anchor-text-section h5{
+padding: 32px 0;
+ font-size: 18px;
+}
+.anchor-text-section p{
+    font-size: 14px;
+    color: #757575;
+}
+/* .anchor-icopn-section{
+   float: left;
+    width: 33.33%;
+    text-align: center;
+} */
+.anchor-text-icon{
+    width: 33.33%;
+    float: right;
+    text-align: center;
+    color:red;
+}
+.anchor-text-icon i{ 
+    font-size: 200px;
+    padding: 80px 0;
+}
+
+@media screen and ( max-width:920px){
+    .anchor-section-container {
+        padding: 16px 8px;
+        max-width:inherit; 
+         } 
+    .anchor-text-section{
+            display: block;
+            width: 100%;
+        } 
+        .anchor-text-icon {
+        width: 100%;
+        float: none;
+    }
+}
+.footerstyle{
+    padding: 24px 12px;
+    text-align: center;
+    display: block;
+    background-color: #757575; font-size: 28px;
+}
